@@ -1,0 +1,98 @@
+/***
+* Main CSS for Exercise 1.a
+* Developed By: Tyler Mann
+***/
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+[v-cloak] {
+    display: none;
+}
+
+body {
+    margin: auto;
+    max-width: 1200px;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.65;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    background-color: #dadadb;
+}
+
+#app {
+  margin: auto;
+}
+
+h1 {
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-size: 35px;
+    text-align: center;
+    color: #1b1e22;
+    text-transform: uppercase;
+}
+h2 {
+  text-align: center;
+  color: #a0821f;
+}
+
+h3 {
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 30px;
+  margin: 0;
+  padding: 20px 10px;
+  color: #1b1e22;
+  
+}
+
+.data-head {
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #32659c;
+}
+.data {
+  margin: 0;
+  font-size: 16px;
+  padding: 10px 20px 20px;
+  line-height: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: rgb(0, 44, 70);
+}
+a {
+  text-decoration: none;
+  color: #32659c;
+  font-weight: 600;
+}
+a:hover {
+  border-bottom: #32659c solid 1px;
+  padding-bottom: 2px;
+}
+
+/* Showing # items */
+.note {
+  margin: 0 0 0 50px;
+  padding-right: 100px;
+  font-style: italic;
+  font-size: 12px;
+  color: #1b3046;
+  position: fixed;
+}
+
+
+.numShown {
+  font-weight: 700;
+  font-size: 14px;
+  color: #1bb890;;
+}
