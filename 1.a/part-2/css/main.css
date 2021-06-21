@@ -21,7 +21,7 @@ body {
     letter-spacing: 0.5px;
     font-size: 16px;
     font-weight: 400;
-    background-color: #dadadb;
+    background-color: #eeeeee;
 }
 
 .wrap {
@@ -50,21 +50,21 @@ body {
 
 h1 {
     font-weight: 700;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     font-size: 35px;
-    text-align: center;
-    color: #1b1e22;
+    line-height: 35px;
+    color: #1bb890;
     text-transform: uppercase;
 }
 h2 {
   color: #a0821f;
 }
 
-h3 {
+h3 { 
   font-weight: 500;
-  letter-spacing: 2px;
-  font-size: 20px;
-  line-height: 30px;
+  letter-spacing: 1px;
+  font-size: 16px;
+  line-height: 25px;
   margin: 0;
   padding: 20px 10px;
   color: #1b1e22;
@@ -89,11 +89,11 @@ h3 {
 }
 a {
   text-decoration: none;
-  color: #32659c;
+  color: #1bb890;;
   font-weight: 600;
 }
 a:hover {
-  border-bottom: #32659c solid 1px;
+  border-bottom: #1bb890 solid 1px;
   padding-bottom: 2px;
 }
 

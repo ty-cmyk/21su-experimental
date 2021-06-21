@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Script Libs -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.2.0/lib/p5.js"></script>
+
+    <title>Data Consumption & CO2 Emissions</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+
+</head>
+<body>
+        <h1>How much CO2 does your data produce?</h1>
+
+         <div class="wrap">
+            
+            <div class="info">
+                
+
+                <h2>On average, every human created at least 1.7 MB of data per second in 2020.</h2>
+
+                <p>For every 1.7MB of data 0.0051kg of CO2 is generated. Which amounts to 440.64kg a day. For comparison the average vehicle in the US generates 9.242kg of CO2 a day.</p>
+
+                <p>According to the <a href="https://www.emergeinteractive.com/wp-content/uploads/2020/02/aceee-cached-research.pdf">American Council for an Energy-Efficient Economy</a> it takes 5.12 kWh of electricity per gigabyte of transferred data. And according to <a href="https://www.emergeinteractive.com/wp-content/uploads/2020/02/DOE-CO2-Emissions-Generation-Electric-Power-2000.pdf">the Department of Energy</a> the average US power plant expends 600 grams of carbon dioxide for every kWh generated. That means that transferring 1GB of data produces 3kg of CO2. </p>
+                
+                <p>These numbers only take into account the CO2 produced by the average electrical grid based on power consumption. Renewable energies such as wind or solar would reduce these numbers drastically.</p>
+                
+                <p class="data">Press enter to start simulation.</p>
+            </div>
+            <div id="app" class="visual">
+            
+            </div>
+        </div>
+        <div class="ref">
+            <h3>References:</h3>
+            <div class="ref--cont">
+                <p>
+                    <a href="https://www.emergeinteractive.com/wp-content/uploads/2020/02/aceee-cached-research.pdf">American Council for an Energy-Efficient Economy</a>
+                </p>
+                <p>
+                    <a href="https://www.emergeinteractive.com/wp-content/uploads/2020/02/DOE-CO2-Emissions-Generation-Electric-Power-2000.pdf">The Department of Energy</a>
+                </p>
+                <p>
+                    <a href="https://www.mic.com/p/the-environmental-impact-of-data-storage-is-more-than-you-think-its-only-getting-worse-18017662">The environmental impact of data storage is more than you think — and it’s only getting worse</a>
+                </p>
+                <p>
+                    <a href="https://www.aceee.org/files/proceedings/2012/data/papers/0193-000409.pdf">The Megawatts behind Your Megabytes: Going from Data-Center to Desktop</a>
+                </p>
+                <p>
+                    <a href="https://www.emergeinteractive.com/insights/detail/does-irresponsible-web-development-contribute-to-global-warming/">Does Irresponsible Web Development Contribute to Global Warming?</a>
+                </p>
+                <p>
+                    <a href="https://energyinnovation.org/2020/03/17/how-much-energy-do-data-centers-really-use/">How Much Energy Do Data Centers Really Use?</a>
+                </p>
+                <p>
+                    <a href="https://www.domo.com/assets/downloads/18_domo_data-never-sleeps-6+verticals.pdf">DATA NEVER SLEEPS 6.0 | How much data is generated every minute?</a>
+                </p>
+                <p>
+                    <a href="https://techjury.net/blog/how-much-data-is-created-every-day/#gref">How Much Data Is Created Every Day in 2021?</a>
+                </p>
+            </div>
+        </div>
+         <footer>
+             <p>Designed by Tyler Mann</p>
+             <p>June 2021</p>
+         </footer>
+    <!-- Scripts -->
+    <script src="script.js"></script>
+
+    <script src="https://kit.fontawesome.com/93e278cd22.js" crossorigin="anonymous"></script>
+    
+</body>
+</html>
