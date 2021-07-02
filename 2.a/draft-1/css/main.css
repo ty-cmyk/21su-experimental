@@ -26,32 +26,29 @@ body {
 
 .wrap {
   padding: 50px 0 0;
-  border-top: #1bb890 solid 1px;
-  display: flex;
-  flex-wrap: wrap;
-  /* align-items: center; */
+  
+  display: block;
+  /* flex-wrap: wrap; */
+  align-items: center;
   justify-content: center;
 }
 
 .info {
-  flex-direction: column;
-  max-width: 650px;
-  text-align: left;
+  flex-flow: wrap;
+  /* max-width: 400px; */
   margin: 0 20px;
   padding: 0 50px;
 }
 
 .visual {
-  flex-direction: column;
+  
   margin: 10px 20px;
   padding: 0 20px;
 }
 
 .ref {
-  
   margin: 100px 0px;
   padding: 50px 0 50px 80px;
-  border-top: #1bb890 solid 1px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
